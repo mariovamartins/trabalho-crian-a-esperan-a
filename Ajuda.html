@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem recebe a ajuda?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #007BFF;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .image-container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li a {
+            display: block;
+            margin: 10px 0;
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .more-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .options {
+            display: none;
+            margin-top: 10px;
+        }
+        .options a {
+            display: block;
+            margin: 5px 0;
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+    <script>
+        function toggleOptions() {
+            var options = document.getElementById("options");
+            options.style.display = options.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+    <header>Quem recebe a ajuda?</header>
+    <div class="container">
+        
+        <p>O Criança Esperança beneficia crianças e jovens em situação de vulnerabilidade em todo o Brasil. As doações arrecadadas são destinadas a instituições que promovem educação, cultura, esporte e inclusão social. Com esse apoio, milhares de crianças têm acesso a melhores oportunidades para um futuro mais promissor.</p>
+        
+        
+        <ul>
+            <li><a href="Feitos.html">Principais feitos</a></li>
+            <li><a href="Criança.html">Página Principal</a></li>
+            <li><a href="Oque é.html">Oque é o Criança Esperança?</a></li>
+            
+        </ul>
+        
+        <button class="more-button" onclick="toggleOptions()">Mais</button>
+        <div class="options" id="options">
+            <a href="#">Voluntariado</a>
+            <a href="#">Eventos</a>
+            <a href="#">Transparência</a>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <img src="https://s2.glbimg.com/JE5VZ0N_EtEVThPkOe3Z3GNvwdlUV4bMmORS8sF-pu9Ioz-HdGixxa_8qOZvMp3w/s.glbimg.com/og/rg/f/original/2012/07/31/dsc07166_606x455.jpg" 
+    div>
+</body>
+</html>

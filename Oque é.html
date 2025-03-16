@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oque é?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #007BFF;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .image-container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+        }
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li a {
+            display: block;
+            margin: 10px 0;
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .more-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .options {
+            display: none;
+            margin-top: 10px;
+        }
+        .options a {
+            display: block;
+            margin: 5px 0;
+            color: #007BFF;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+    <script>
+        function toggleOptions() {
+            var options = document.getElementById("options");
+            options.style.display = options.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+    <header>Oque é o Criança esperança?</header>
+    <div class="container">
+        
+        <p>O Criança Esperança é um projeto social realizado pela TV Globo em parceria com a UNESCO desde 1986. Seu objetivo é arrecadar doações para apoiar instituições que ajudam crianças e jovens em situação de vulnerabilidade no Brasil. O programa investe em iniciativas voltadas para educação, cultura, esporte e inclusão social, proporcionando oportunidades para um futuro melhor..</p>
+        
+        <h2>Saiba mais</h2>
+        <ul>
+            <li><a href="Feitos.html">Principais feitos</a></li>
+            <li><a href="Criança.html">Página Principal</a></li>
+            <li><a href="Ajuda.html">Oque é o Criança Esperança?</a></li>
+        </ul>
+        
+        <button class="more-button" onclick="toggleOptions()">Mais</button>
+        <div class="options" id="options">
+            <a href="#">Voluntariado</a>
+            <a href="#">Eventos</a>
+            <a href="#">Transparência</a>
+        </div>
+    </div>
+
+    <img width="560" height="315" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNJK2tY2H1yp7MJs-qQ6kTL1ge-AqvHP3Shg&s" alt="">
+</body>
+</html>
+
